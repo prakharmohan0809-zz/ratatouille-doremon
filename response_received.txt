@@ -1,0 +1,43 @@
+{
+  "id": "0e9283ec-e8ec-472e-bb83-8aeb6ac28aef",
+  "timestamp": "2016-11-05T02:52:12.401Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Please get me the menu",
+    "action": "Show-Menu",
+    "actionIncomplete": false,
+    "parameters": {
+      "Menu": "Menu"
+    },
+    "contexts": [
+      {
+        "name": "show-items",
+        "parameters": {
+          "Menu.original": "menu",
+          "Menu": "Menu"
+        },
+        "lifespan": 5
+      }
+    ],
+    "metadata": {
+      "intentId": "9d466a69-35cd-4acc-80f3-26684c9d5046",
+      "webhookUsed": "false",
+      "intentName": "Show the list of items"
+    },
+    "fulfillment": {
+      "speech": "Sure here is the catalog. What would you like to have?",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "My pleasure! Here is the list of items available. Please let me know when you want to order."
+        }
+      ]
+    },
+    "score": 1.0
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "1"
+}
